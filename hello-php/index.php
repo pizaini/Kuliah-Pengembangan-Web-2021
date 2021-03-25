@@ -9,12 +9,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Judul dari Web</title>
-    <style>
-
-    </style>
-    <script>
-        alert('sdfsfsfs');
-    </script>
 </head>
 <body>
 <h1>Server info</h1>
