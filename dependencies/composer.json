@@ -1,0 +1,15 @@
+{
+    "name": "pizaini/kuliah-pabw-2021",
+    "description": "Kuliah PABW 2021 kelas 4E",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "pizaini",
+            "email": "pizaini@uin-suska.ac.id"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.46"
+    }
+}
