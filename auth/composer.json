@@ -1,0 +1,17 @@
+{
+    "name": "pizaini/auth",
+    "description": "Authentication example",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Pizaini",
+            "email": "pizaini@uin-suska.ac.id"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.4",
+        "casbin/casbin": "^3.2"
+    }
+}

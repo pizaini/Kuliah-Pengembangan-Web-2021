@@ -24,3 +24,5 @@ Homestead.json
 .phpunit.result.cache
 .idea
 dependencies/vendor
+auth/vendor
+auth/composer.lock

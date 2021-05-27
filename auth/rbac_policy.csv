@@ -1,0 +1,4 @@
+p, customer, /url1.php, GET
+p, manager, /url2.php, GET
+g, user1, customer
+g, user2, manager
