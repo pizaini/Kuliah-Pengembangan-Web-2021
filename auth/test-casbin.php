@@ -28,7 +28,7 @@ $enforcer = new \Casbin\Enforcer('rbac_model.conf', 'rbac_data.csv');
 if ($enforcer->enforce($user, $urlToCheck, $requestMethod)) {
     include $file;
 } else {
-    header('HTTP/1.0 403 Unauthorized');
+    header('HTTP/1.0 403 Forbidden');
     $message = "User = {$user}, url = {$urlToCheck}, request method = {$requestMethod}";
     exit('403: ' . $message);
 }
